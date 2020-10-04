@@ -2,7 +2,7 @@
 
 const { spawn } = require('child_process');
 const fs = require('fs');
-const { Graph } = require('./graph.js');
+const { Graph } = require('../graph.js');
 
 const G = new Graph({});
 

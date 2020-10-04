@@ -47,24 +47,6 @@ class Graph {
         return out;
     }
 
-    /**
-     *  Returns array of distances to each vertex identified by ID
-     *  from vertex identified by s.
-     *  Structure of return:
-     *  {
-     *      {
-     *          id: number          // Identifier of edge
-     *          distance: number    // Distance to edge from s
-     *          predecessor: number // identifier of previous vertex
-     *          color: in {'white', 'gray', 'black'}
-     *              // white: not yet visited
-     *              // gray: currently visting
-     *              // black: already visited
-     *      }, 
-     *      ... // more id-distance pairs
-     *  }
-     * 
-     */
     breadthFirstSearch (s_id) {
         this.from = s_id;
         const WHITE = 'white';

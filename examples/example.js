@@ -9,7 +9,7 @@ const G = new Graph({});
 G.addVertex('a');
 G.addVertex('b');
 G.addEdge('a', 'b', 1);
-G.addVertex('c', {});
+G.addVertex('c');
 G.addEdge('b', 'c', 2);
 G.addEdge('c', 'a', 3);
 
